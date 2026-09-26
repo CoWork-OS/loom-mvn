@@ -135,7 +135,7 @@ Observability and alerting summary:
   - PASS: LOOM_PUBLIC_SERVICE=true
   - PASS: LOOM_METRICS_PUBLIC=false (authenticated scrape mode)
   - PASS: Admin token available for authenticated scrape
-  - PASS: Alert rule file present: /Users/mesut/Desktop/email++/ops/alerts/loom-alert-rules.yaml
+  - PASS: Alert rule file present: ops/alerts/loom-alert-rules.yaml
   - PASS: Alert rule present: LoomReadyProbeFailing
   - PASS: Alert rule present: LoomAdminStatusProbeFailing
   - PASS: Alert rule present: LoomFederationOutboxLagHigh
@@ -150,7 +150,7 @@ PASSED: observability and alerting checks succeeded.
 [release-gate] Incident response readiness
 
 Incident response readiness summary:
-  - PASS: Incident runbook present: /Users/mesut/Desktop/email++/docs/INCIDENT-RESPONSE-ONCALL.md
+  - PASS: Incident runbook present: docs/INCIDENT-RESPONSE-ONCALL.md
   - PASS: Runbook section present: On-Call Rotation
   - PASS: Runbook section present: Severity Matrix
   - PASS: Runbook section present: Incident Lifecycle
@@ -159,7 +159,7 @@ Incident response readiness summary:
   - PASS: Runbook section present: Communications
   - PASS: Runbook section present: Drill Program
   - PASS: Incident drill notes present (1)
-  - PASS: Latest drill note: /Users/mesut/Desktop/email++/ops/incidents/drills/2026-02-18-sev1-availability-tabletop.md
+  - PASS: Latest drill note: ops/incidents/drills/2026-02-18-sev1-availability-tabletop.md
 
 PASSED: incident response readiness checks succeeded.
 
@@ -183,7 +183,7 @@ PASSED: request tracing checks succeeded.
 [release-gate] Threat model
 
 Threat model summary:
-  - PASS: Threat model present: /Users/mesut/Desktop/email++/docs/THREAT-MODEL.md
+  - PASS: Threat model present: docs/THREAT-MODEL.md
   - PASS: Section present: # LOOM Threat Model
   - PASS: Section present: ## Scope
   - PASS: Section present: ## Assets
@@ -223,7 +223,7 @@ PASSED: security testing program checks succeeded.
 [release-gate] Capacity and chaos
 
 Capacity/chaos readiness summary:
-  - PASS: Capacity/chaos runbook present: /Users/mesut/Desktop/email++/docs/CAPACITY-CHAOS-TESTS.md
+  - PASS: Capacity/chaos runbook present: docs/CAPACITY-CHAOS-TESTS.md
   - PASS: Runbook section present: ## Load Scenarios
   - PASS: Runbook section present: ## Chaos Scenarios
   - PASS: Runbook section present: ## Pass Criteria
@@ -238,7 +238,7 @@ PASSED: capacity/chaos readiness checks succeeded.
 [release-gate] Disaster recovery plan
 
 Disaster recovery plan summary:
-  - PASS: DR plan present: /Users/mesut/Desktop/email++/docs/DISASTER-RECOVERY-PLAN.md
+  - PASS: DR plan present: docs/DISASTER-RECOVERY-PLAN.md
   - PASS: DR plan includes: RTO
   - PASS: DR plan includes: RPO
   - PASS: DR plan includes: ## Failover Procedure
@@ -253,7 +253,7 @@ PASSED: disaster recovery plan checks succeeded.
 [release-gate] Access governance
 
 Access governance summary:
-  - PASS: Access governance doc present: /Users/mesut/Desktop/email++/docs/ACCESS-GOVERNANCE.md
+  - PASS: Access governance doc present: docs/ACCESS-GOVERNANCE.md
   - PASS: Access governance doc includes: least-privilege
   - PASS: Access governance doc includes: Quarterly access review
   - PASS: Access governance doc includes: Joiner/mover/leaver
@@ -269,7 +269,7 @@ PASSED: access governance checks succeeded.
 Loaded env file: /tmp/loom-gate-20260218T134331Z-k6jg/gate.env
 
 Compliance controls summary:
-  - PASS: Compliance controls doc present: /Users/mesut/Desktop/email++/docs/COMPLIANCE-CONTROLS.md
+  - PASS: Compliance controls doc present: docs/COMPLIANCE-CONTROLS.md
   - PASS: Compliance controls section present: # LOOM Compliance Controls
   - PASS: Compliance controls section present: ## Compliance Scope
   - PASS: Compliance controls section present: ## Audit Export Controls
@@ -319,7 +319,7 @@ PASSED: compliance controls checks succeeded.
 Loaded env file: /tmp/loom-gate-20260218T134331Z-k6jg/gate.env
 
 Compliance controls summary:
-  - PASS: Compliance controls doc present: /Users/mesut/Desktop/email++/docs/COMPLIANCE-CONTROLS.md
+  - PASS: Compliance controls doc present: docs/COMPLIANCE-CONTROLS.md
   - PASS: Compliance controls section present: # LOOM Compliance Controls
   - PASS: Compliance controls section present: ## Compliance Scope
   - PASS: Compliance controls section present: ## Audit Export Controls
@@ -372,8 +372,8 @@ Compliance controls summary:
 PASSED: compliance controls checks succeeded.
 
 [compliance-gate] Compliance runtime drill
-Compliance runtime drill report: /Users/mesut/Desktop/email++/scripts/output/compliance-drills/compliance-20260218T134339Z/report.json
-Compliance runtime drill summary: /Users/mesut/Desktop/email++/scripts/output/compliance-drills/compliance-20260218T134339Z/summary.md
+Compliance runtime drill report: scripts/output/compliance-drills/compliance-20260218T134339Z/report.json
+Compliance runtime drill summary: scripts/output/compliance-drills/compliance-20260218T134339Z/summary.md
 Compliance runtime drill result: PASS
 
 [compliance-gate] PASS
@@ -381,7 +381,7 @@ Compliance runtime drill result: PASS
 [release-gate] Federation interop evidence
 
 Federation interop evidence summary:
-  - PASS: Using matrix report: /Users/mesut/Desktop/email++/scripts/output/federation-interop-matrix/interop-matrix-20260218T134337Z/report.json
+  - PASS: Using matrix report: scripts/output/federation-interop-matrix/interop-matrix-20260218T134337Z/report.json
   - PASS: Matrix report contains 2 target run(s)
   - PASS: Matrix report indicates overall success
   - PASS: Matrix report age (0.00h) is within 168h

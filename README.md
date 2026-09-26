@@ -7,7 +7,7 @@ This repository tracks **LOOM** (Linked Operations & Orchestrated Messaging).
 Clone and run locally:
 
 ```bash
-git clone https://github.com/mesutgenai/loom-mvn.git
+git clone https://github.com/CoWork-OS/loom-mvn.git
 cd loom-mvn
 npm install
 npm start
@@ -394,7 +394,7 @@ See `LOOM-Agent-First-Protocol-v2.0.md` for the structural blueprint.
 From a fresh machine:
 
 ```bash
-git clone https://github.com/mesutgenai/loom-mvn.git
+git clone https://github.com/CoWork-OS/loom-mvn.git
 cd loom-mvn
 npm install
 npm start

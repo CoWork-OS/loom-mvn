@@ -49,7 +49,7 @@ All notable changes to this project are documented in this file.
 
 ### Docs and Positioning
 
-- README clone URLs updated to `mesutgenai/loom-mvn`.
+- README clone URLs updated.
 - README and conformance release references aligned with `v0.4.1` / `0.4.1`.
 - Added `docs/LOOM-CORE.md` defining `loom-core-1` cut-line and extension boundaries.
 - Added `docs/EXTENSION-REGISTRY.md` with formal extension lifecycle + versioning rules.
